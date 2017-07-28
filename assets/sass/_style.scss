@@ -1,3 +1,6 @@
+//verde #16a086;
+//smokewhite #f5f6f8;
+
 body{
 	font-family: 'Fredoka One', cursive;
 	letter-spacing: 2%;
@@ -9,16 +12,26 @@ body{
 .navbar-default {
     background-color: transparent; 
     border-color: transparent; 
-}
-.navbar-nav {
+    .navbar-nav {
     width: 100%;
     color:white;
     text-align: center;
     > li {
       float: none;
       display: inline-block;
+      padding-left: 40px;
     }
+    >li>a, .navbar-default .navbar-text {
+    color: white;
+    font-size:17px;
+	}
   }
+  .navbar-nav>li>a:hover{
+    color: #16a086;
+	}
+}
+
+
 
 #welcome{
 	background-image: url(../img/bg1.jpg);
@@ -31,9 +44,21 @@ body{
     background-position: center;
     background-position-y: bottom;
 	h1{
-		    margin-top: 20%;
+		margin-top: 20%;
+		font-size: 50px;
 	}
+	p{
+		font-size: 19px;
+	}
+	.btn2{
+    background-color: #16a086;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    }
 }
+
 
 #seccion1{
 	color:black;
