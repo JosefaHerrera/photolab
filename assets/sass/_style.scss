@@ -80,15 +80,38 @@ body{
     width: 100%;
     height: 700px;
     padding-top: 20px;
-    
     background-position: center;
     background-position-y: bottom;
 }
 
 #seccion5{
+	background-color:#f5f6f8;
 	color:black;
+	padding-top: 58px;
+    padding-bottom: 90px;
+	.btn2 {
+    background-color: #16a086;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    color:white;
+   }
 }
 
 #sec-footer{
 	color:black;
+	padding-top: 15px;
+    padding-bottom: 15px;
+   h6{
+   	font-size: 16px;
+    padding-top: 21px;
+    padding-left: 14px;
+   }
+   a{
+   	color:black;
+   	border-right: 2px solid #16a086;
+   	padding-bottom: 0px;
+   	padding-top: 0px;
+   }
 }
