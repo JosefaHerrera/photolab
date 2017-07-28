@@ -35,12 +35,11 @@ body{
 
 #welcome{
 	background-image: url(../img/bg1.jpg);
-	    background-size: cover;
+	background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 700px;
     padding-top: 20px;
-    
     background-position: center;
     background-position-y: bottom;
 	h1{
@@ -62,6 +61,25 @@ body{
 
 #seccion1{
 	color:black;
+	background-color:#f5f6f8;
+	background-image: url(../img/hand.png);
+	background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: 600px;
+    background-position-y: 50px;
+    padding-top: 96px;
+    padding-bottom: 143px;
+    h1 {
+    font-size: 29px;
+    color: #16a086;
+	}.btn2 {
+    background-color: #16a086;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    color:white;
+   }
 }
 
 #seccion2{
