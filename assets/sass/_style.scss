@@ -8,6 +8,10 @@ body{
 	padding: 0;
 	overflow-x: hidden;
 	color:white;
+	p{
+		color:#7f8c8d;
+		letter-spacing: 1px;
+	}
 }
 .navbar-default {
     background-color: transparent; 
@@ -48,6 +52,7 @@ body{
 	}
 	p{
 		font-size: 19px;
+		color:white;
 	}
 	.btn2 {
     background-color: #16a086;
