@@ -26,6 +26,10 @@ gulp.task('style',function(){
      .pipe(gulp.dest('dist/css/'));
 });
 
+gulp.task('watch', function() {
+    gulp.watch('assets/sass/*.scss', ['style']);
+});
+
 //servidor WEB localhost puerto 8000
 gulp.task('webserver', function(){
     gulp.src('../photolab/')
@@ -38,4 +42,4 @@ gulp.task('webserver', function(){
 });
 
 //gulp y las tareas que deberá ejecutar al hacer correr el comando gulp en el terminal
-gulp.task('default',['script','style','webserver']);
+gulp.task('default',['script','style','webserver','watch']);
